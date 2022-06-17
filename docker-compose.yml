@@ -1,0 +1,12 @@
+version: '3'
+services:
+    web:
+        build: .
+        ports:
+            - "7080:7080"
+        #volumes:
+        #    - .:/code
+        #depends_on:
+        #    - redis
+    #redis:
+        #image: redis
